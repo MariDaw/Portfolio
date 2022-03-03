@@ -116,78 +116,7 @@
     .timeline, .eclipse img, .ttime, .content, .ttexto {
         display: none;
     }
-
-    #fondo{
-        display: none;
-
-    }
-
-    #show, #show-modal, #close{
-        position: relative;
-        top: -250px;
-        text-transform: uppercase;
-        width: 100px;
-        border: 1px solid black;
-        border-radius: 3px;
-        background-color: black;
-        color: white;
-        left: 300px;
-
-    }
-
-    #show, #show-modal{
-        margin: 5px;
-
-    }
-
-    #close{
-        position: fixed;
-        top:250px;
-        left: 65%;
-    }
-
-    dialog {
-        position: absolute;
-        left: 0; right: 0;
-        width: -moz-fit-content;
-        width: -webkit-fit-content;
-        width: fit-content;
-        height: -moz-fit-content;
-        height: -webkit-fit-content;
-        height: fit-content;
-        margin: auto;
-        padding: 1em;
-        display: block;
-        color: black;
-        border: 10px solid black;
-        background-color: rgb(145, 111, 180);
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 1.5em;
-        overflow: hidden;
-      }
-
-      dialog:not([open]) {
-        display: none;
-      }
-
-      dialog + .backdrop {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-        background: rgba(0,0,0,0.1);
-        background-color: transparent;
-      }
-
-      ._dialog_overlay {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-      }
-
-      dialog.fixed {
-        position: fixed;
-        top: 50%;
-        transform: translate(0, -50%);
-      }
+    
 #logo{
     display: none;
 }
@@ -436,17 +365,6 @@ footer h1 {
     font-size: small;
 
 }
-
-/* Validaciones */
-
-#validaciones {
-    display: inline-block;
-    justify-content: flex-end;
-    align-items:flex-start;
-    height: 30px;
-    margin-left: 290px;
-    margin-top: -500px;
-}
 }
 
 
@@ -627,80 +545,6 @@ footer h1 {
     .timeline, .eclipse img, .ttime, .content, .ttexto {
         display: none;
     }
-
-    #fondo{
-        display: none;
-
-    }
-
-    #show, #show-modal, #close{
-        position: relative;
-        top: -250px;
-        text-transform: uppercase;
-        width: 100px;
-        border: 1px solid black;
-        border-radius: 3px;
-        background-color: black;
-        color: white;
-        left: 300px;
-
-    }
-
-    #show, #show-modal{
-        margin: 5px;
-
-    }
-
-    #close{
-        position: fixed;
-        top:200px;
-        left: 60%;
-    }
-
-    dialog {
-        position: absolute;
-        left: 0; right: 0;
-        width: -moz-fit-content;
-        width: -webkit-fit-content;
-        width: fit-content;
-        height: -moz-fit-content;
-        height: -webkit-fit-content;
-        height: fit-content;
-        margin: auto;
-        padding: 1em;
-        display: block;
-        color: black;
-        border: 10px solid black;
-        background-color: rgb(145, 111, 180);
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 1.5em;
-        overflow: hidden;
-        bottom: 50px;
-      }
-
-      dialog:not([open]) {
-        display: none;
-      }
-
-      dialog + .backdrop {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-        background: rgba(0,0,0,0.1);
-        background-color: transparent;
-      }
-
-      ._dialog_overlay {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-      }
-
-      dialog.fixed {
-        position: fixed;
-        top: 50%;
-        transform: translate(0, -50%);
-      }
-
 
 
 #work {
@@ -936,16 +780,7 @@ footer h1 {
     margin-top: 10px;
 
 }
-/* Validaciones */
 
-#validaciones {
-    display: inline-block;
-    justify-content: flex-end;
-    align-items:flex-start;
-    height: 30px;
-    margin-left: 350px;
-    margin-top: -230px;
-}
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
@@ -1065,77 +900,7 @@ footer h1 {
         display: none;
     }
 
-    #fondo{
-        display: none;
-
-    }
-
-    #show, #show-modal, #close{
-        position: relative;
-        top: -250px;
-        text-transform: uppercase;
-        width: 50px;
-        border: 1px solid black;
-        border-radius: 3px;
-        background-color: black;
-        color: white;
-        left: 290px;
-
-    }
-
-    #show, #show-modal{
-        margin: 5px;
-
-    }
-
-    #close{
-        position: fixed;
-        top:250px;
-        left: 65%;
-    }
-
-    dialog {
-        position: absolute;
-        left: 0; right: 0;
-        width: -moz-fit-content;
-        width: -webkit-fit-content;
-        width: fit-content;
-        height: -moz-fit-content;
-        height: -webkit-fit-content;
-        height: fit-content;
-        margin: auto;
-        padding: 1em;
-        display: block;
-        color: black;
-        border: 10px solid black;
-        background-color: rgb(145, 111, 180);
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 1.5em;
-        overflow: hidden;
-      }
-
-      dialog:not([open]) {
-        display: none;
-      }
-
-      dialog + .backdrop {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-        background: rgba(0,0,0,0.1);
-        background-color: transparent;
-      }
-
-      ._dialog_overlay {
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-      }
-
-      dialog.fixed {
-        position: fixed;
-        top: 50%;
-        transform: translate(0, -50%);
-      }
+    
 #logo{
     display: none;
 }
@@ -1397,16 +1162,9 @@ footer h1 {
 
 }
 
-#buscador, #busca{
+#buscador, #busca, #navegador, #noNav{
     display: none;
 }
 
-#validaciones {
-    display: inline-block;
-    justify-content: flex-end;
-    align-items:flex-start;
-    height: 30px;
-    margin-left: 240px;
-    margin-top: -500px;
-}
+
 }
