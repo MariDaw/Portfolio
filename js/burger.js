@@ -59,7 +59,7 @@ function generar() {
     a.setAttribute("href", "#work");
     const newContent =document.createTextNode("PROYECTOS");
     a.appendChild(newContent);
-    
+
 
 
 
@@ -81,17 +81,14 @@ function generar() {
     a3.className = "menuItem";
     a3.textContent = "CONTACTO";
 
-    const a4 = document.createElement("a");
-    a4.setAttribute("href", "#contacto");
-    a4.className = "menuItem";
-    a4.textContent = "PRUEBA";
+
 
 
     div3.appendChild(a);
-    div3.appendChild(a1).remove();
+    div3.appendChild(a1);
     div3.appendChild(a2);
     div3.appendChild(a3);
-    div3.appendChild(a4);
+    
 
     div2.appendChild(div3);
     header.appendChild(div2);
