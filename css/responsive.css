@@ -12,12 +12,13 @@
     }
 
     #header {
-        height: 120vh;
+        height: 50rem;
+        width: 100%;
     }
 
     #principal{
-        width: 350px;
-        height: 450px;
+        width: 100%;
+        height: 50rem;
         position: relative;
         right: 15px;
         bottom: 50px;
@@ -783,6 +784,7 @@ footer h1 {
 
 }
 
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
     * {
@@ -795,7 +797,8 @@ footer h1 {
     }
 
     #header {
-        height: 100vh;
+        height: 40rem;
+        width: 100%;
     }
 
     #principal{
@@ -915,7 +918,7 @@ nav {
 }
 #work {
     width: 100%;
-    height: 210vh;
+    height: 95rem;
     background-color: black;
 }
 
@@ -1008,12 +1011,12 @@ nav {
 
 #testimonios {
     width: 100%;
-    height: 80vh;
+    height: 40rem;
 }
 
 #aboutme {
     width: 100%;
-    height: 130vh;
+    height: 50rem;
     background-color: black;
 }
 
@@ -1137,6 +1140,10 @@ input{
     margin: 1px;
 }
 
+#contacto{
+    width: 100%;
+    height: 35rem;
+}
 
 footer img{
     margin: 30px;
