@@ -16,6 +16,7 @@ window.addEventListener("load", visualizarBurguer);
 window.addEventListener("resize", visualizarBurguer);
 burguer.addEventListener("click", toggleMenu);
 
+
 console.log(l1);
 function toggleMenu() {
     let menu = document.getElementById("menu");
@@ -58,6 +59,8 @@ function generar() {
     a.setAttribute("href", "#work");
     const newContent =document.createTextNode("PROYECTOS");
     a.appendChild(newContent);
+    
+
 
 
     const a1 = document.createElement("a");
@@ -78,11 +81,17 @@ function generar() {
     a3.className = "menuItem";
     a3.textContent = "CONTACTO";
 
+    const a4 = document.createElement("a");
+    a4.setAttribute("href", "#contacto");
+    a4.className = "menuItem";
+    a4.textContent = "PRUEBA";
+
 
     div3.appendChild(a);
-    div3.appendChild(a1);
+    div3.appendChild(a1).remove();
     div3.appendChild(a2);
     div3.appendChild(a3);
+    div3.appendChild(a4);
 
     div2.appendChild(div3);
     header.appendChild(div2);
@@ -95,8 +104,11 @@ function generar() {
 
 function cerrarDiv() {
     const div = document.querySelector("#menu");
+
     console.log(div);
     div.remove();
+
+
     buno.style.transform = "";
     btres.style.transform = "";
     bdos.style.opacity = "100";

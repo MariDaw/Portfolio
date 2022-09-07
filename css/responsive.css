@@ -116,7 +116,7 @@
     .timeline, .eclipse img, .ttime, .content, .ttexto {
         display: none;
     }
-    
+
 #logo{
     display: none;
 }
@@ -131,7 +131,7 @@ nav {
 }
 #work {
     width: 100%;
-    height: 230vh;
+    height:100rem;
     background-color: black;
 }
 
@@ -900,7 +900,7 @@ footer h1 {
         display: none;
     }
 
-    
+
 #logo{
     display: none;
 }
