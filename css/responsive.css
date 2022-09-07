@@ -12,13 +12,13 @@
     }
 
     #header {
-        height: 50rem;
+        height: 45rem;
         width: 100%;
     }
 
     #principal{
-        width: 100%;
-        height: 50rem;
+        width: 350px;
+        height: 450px;
         position: relative;
         right: 15px;
         bottom: 50px;
@@ -217,12 +217,12 @@ nav {
 
 #testimonios {
     width: 100%;
-    height: 90vh;
+    height: 35rem;
 }
 
 #aboutme {
     width: 100%;
-    height: 130vh;
+    height: 50rem;
     background-color: black;
 }
 
@@ -273,7 +273,7 @@ nav {
 }
 #contacto {
     width: 100%;
-    height: 80vh;
+    height: 35rem;
     background-color: #F3DD62;
 }
 
@@ -381,7 +381,8 @@ footer h1 {
     }
 
     #header {
-        height: 120vh;
+        height: 50rem;
+        width: 100%;
     }
 
     #logo {
